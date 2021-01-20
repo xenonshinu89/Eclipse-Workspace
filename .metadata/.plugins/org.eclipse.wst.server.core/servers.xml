@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="springMVCHibernateDemo::org.eclipse.jst.j2ee.server:springMVCHibernateDemo::jst.web::2.3" value1="springmvc5-helloworld-exmaple::org.eclipse.jst.j2ee.server:springmvc5-helloworld-exmaple::jst.web::2.3" value2="Spring3Security::org.eclipse.jst.jee.server:Spring3Security::jst.web::2.5"/>
+  </server>
+</servers>

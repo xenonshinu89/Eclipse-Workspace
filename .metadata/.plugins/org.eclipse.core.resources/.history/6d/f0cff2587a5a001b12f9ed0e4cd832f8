@@ -1,0 +1,17 @@
+package com.anchil.springMVCHibernateDemo.Security;
+
+import javax.servlet.ServletContext;
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class SecurityWebAppInitializer extends AbstractSecurityWebApplicationInitializer{
+	
+	public SecurityWebAppInitializer() {
+		super(SecurityConfiguration.class);
+	}
+
+	
+	
+	
+
+}

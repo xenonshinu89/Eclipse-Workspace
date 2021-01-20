@@ -1,0 +1,36 @@
+package com.anchil.springMVCHibernateDemo.Controller;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.anchil.springMVCHibernateDemo.Dao.EmployeeDao;
+import com.anchil.springMVCHibernateDemo.Model.Employee;
+
+@Controller
+@RequestMapping("/springMVCHibernateDemo")
+public class EmployeeController {
+	
+	@RequestMapping(value="/addEmployee")
+	public void addEmployee() {
+		// TODO Auto-generated method stub
+		/*
+		 * ApplicationContext ctx=new
+		 * ClassPathXmlApplicationContext("applicationContext.xml"); EmployeeDao
+		 * dao=(EmployeeDao)ctx.getBean("EmployeeDaoBean");
+		 * 
+		 * Employee e=new Employee(); //e.setId(114); e.setEmployeeName("varun");
+		 * e.setSalary("50000");
+		 * 
+		 * dao.saveEmployee(e);
+		 */ 
+
+		System.out.println("in link");
+	}
+
+}

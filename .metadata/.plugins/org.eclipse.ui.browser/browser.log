@@ -1,0 +1,19 @@
+
+Jan 18, 2021 16:33:36.108 NEW SESSION
+Jan 18, 2021 16:33:36.108 [14520:15796:0118/163335.551:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+Jan 18, 2021 16:33:36.108 [14520:15796:0118/163335.552:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\hp-pc\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\hp-pc\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_001
+Jan 18, 2021 16:33:36.109 [14520:15796:0118/163335.552:ERROR:disk_cache.cc(184)] Unable to create cache
+Jan 18, 2021 16:33:36.109 [14520:15796:0118/163335.552:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Jan 18, 2021 16:33:43.554 Opening in existing browser session.
+
+Jan 20, 2021 20:45:27.590 NEW SESSION
+Jan 20, 2021 20:45:27.590 [14372:11196:0120/204527.574:ERROR:device_event_log_impl.cc(211)] [20:45:27.574] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 20, 2021 20:47:58.329 [14372:8804:0120/204758.329:ERROR:component_installer.cc(128)] Move failed.: Access is denied. (0x5)
+Jan 20, 2021 20:54:21.670 [0120/205421.667:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Jan 20, 2021 22:37:56.953 NEW SESSION
+Jan 20, 2021 22:37:56.953 [9744:9716:0120/223756.915:ERROR:device_event_log_impl.cc(211)] [22:37:56.912] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 20, 2021 22:37:58.14 [9744:9716:0120/223756.916:ERROR:device_event_log_impl.cc(211)] [22:37:56.915] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 20, 2021 22:39:39.386 [9744:6224:0120/223939.385:ERROR:component_installer.cc(128)] Move failed.: Access is denied. (0x5)
+Jan 20, 2021 22:47:33.910 [0120/224733.907:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 21, 2021 24:26:39.387 [0121/002639.250:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0

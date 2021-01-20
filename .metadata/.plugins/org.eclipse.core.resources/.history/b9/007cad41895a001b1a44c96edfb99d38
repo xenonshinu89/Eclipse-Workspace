@@ -1,0 +1,5 @@
+package com.anchil.springMVCHibernateDemo.Model;
+
+public class User {
+
+}

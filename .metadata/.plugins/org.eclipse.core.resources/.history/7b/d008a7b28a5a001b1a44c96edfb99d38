@@ -1,0 +1,5 @@
+package com.anchil.springMVCHibernateDemo.Dao;
+
+public class UserDao {
+
+}

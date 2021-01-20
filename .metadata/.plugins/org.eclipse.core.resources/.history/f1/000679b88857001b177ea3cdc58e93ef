@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="/springMVCHibernateDemo/addEmployee.do">Add Employee</a>
+
+<form action="#" method="post">
+ User Name : <input type="text" value="userName"/>
+ Password : <input type="text" value="password"/>
+ <input type="submit"/>
+ 
+ </form>
+ 
+ Request URL : <h1>${requestScope.getRequestURL()}</h1>
+  Context Path :<h1>${requestScope.getCOntextPath()}</h1>
+ Request URI :   <h1>${requestScope.getRequestURI()}</h1>
+
+</body>
+</html>
